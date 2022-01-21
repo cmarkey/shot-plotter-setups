@@ -1,0 +1,60 @@
+{
+  "details": [
+    {
+      "type": "shot-number",
+      "title": "#",
+      "id": "shot-number",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Takeaway",
+      "id": "takeaway",
+      "options": [
+        {
+          "value": "Attempted"
+        },
+        {
+          "value": "Sucessful",
+          "checked": true
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Takeaway Type",
+      "id": "takeaway-type",
+      "options": [
+        {
+          "value": "Physical Contact"
+        },
+        {
+          "value": "Stick Only",
+          "checked": true
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X",
+      "id": "x",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y",
+      "id": "y",
+      "noWidget": true,
+      "hidden": null
+    }
+  ],
+  "rowsPerPage": "10",
+  "widgetsPerRow": "2",
+  "heatMapView": false
+}

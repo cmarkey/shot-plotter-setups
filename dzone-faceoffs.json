@@ -1,0 +1,113 @@
+{
+  "details": [
+    {
+      "type": "shot-number",
+      "title": "#",
+      "id": "shot-number",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Period",
+      "id": "period",
+      "options": [
+        {
+          "value": "1",
+          "checked": true
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "OT"
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": "player",
+      "title": "Player",
+      "id": "player-input",
+      "defaultValue": "",
+      "hidden": null
+    },
+    {
+      "type": "text-field",
+      "title": "Picked Up By",
+      "id": "picked-up-by",
+      "defaultValue": "",
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "5 Sec Result ",
+      "id": "a5-sec-result-0",
+      "options": [
+        {
+          "value": "Controlled Exit"
+        },
+        {
+          "value": "Uncontrolled Exit",
+          "checked": true
+        },
+        {
+          "value": "LOP"
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X",
+      "id": "x",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y",
+      "id": "y",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X2",
+      "id": "x2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y2",
+      "id": "y2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "FO Result",
+      "id": "fo-result",
+      "options": [
+        {
+          "value": "W"
+        },
+        {
+          "value": "L",
+          "checked": true
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    }
+  ],
+  "rowsPerPage": "10",
+  "widgetsPerRow": "2",
+  "heatMapView": false
+}
