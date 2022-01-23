@@ -1,0 +1,96 @@
+{
+  "details": [
+    {
+      "type": "shot-number",
+      "title": "#",
+      "id": "shot-number",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Period",
+      "id": "period",
+      "options": [
+        {
+          "value": "1",
+          "checked": true
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "OT"
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X",
+      "id": "x",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y",
+      "id": "y",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X2",
+      "id": "x2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y2",
+      "id": "y2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Centering Pass",
+      "id": "centering-pass",
+      "options": [
+        {
+          "value": "Not Attempted - Shot Taken"
+        },
+        {
+          "value": "Not Attempted - Low Danger Pass",
+          "checked": true
+        },
+        {
+          "value": "Attempted - LOP"
+        },
+        {
+          "value": "Attempted - Missed"
+        },
+        {
+          "value": "Successful"
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "text-field",
+      "title": "Notes",
+      "id": "notes",
+      "defaultValue": "",
+      "editable": true,
+      "hidden": null
+    }
+  ],
+  "rowsPerPage": "10",
+  "widgetsPerRow": "2",
+  "heatMapView": true
+}
