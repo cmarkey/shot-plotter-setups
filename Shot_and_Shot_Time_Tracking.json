@@ -1,0 +1,90 @@
+{
+  "details": [
+    {
+      "type": "shot-number",
+      "title": "#",
+      "id": "shot-number",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Period",
+      "id": "period",
+      "options": [
+        {
+          "value": "1",
+          "checked": true
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "OT"
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": "team",
+      "title": "Team",
+      "className": "team-select",
+      "id": "team",
+      "blueTeamName": "Home",
+      "orangeTeamName": "Away",
+      "checked": "blue-team-select",
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X",
+      "id": "x",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y",
+      "id": "y",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Type",
+      "id": "type",
+      "options": [
+        {
+          "value": "Shot"
+        },
+        {
+          "value": "Block",
+          "checked": true
+        },
+        {
+          "value": "Miss"
+        },
+        {
+          "value": "Goal"
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "time",
+      "title": "Clock",
+      "id": "clock",
+      "defaultTime": "20:00",
+      "countdown": true,
+      "editable": true,
+      "hidden": null
+    }
+  ],
+  "rowsPerPage": "10",
+  "widgetsPerRow": "2",
+  "heatMapView": false
+}
