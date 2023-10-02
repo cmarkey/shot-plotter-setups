@@ -1,0 +1,102 @@
+{
+  "details": [
+    {
+      "type": "shot-number",
+      "title": "#",
+      "id": "shot-number",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Period",
+      "id": "period",
+      "options": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3",
+          "checked": true
+        },
+        {
+          "value": "OT"
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": "team",
+      "title": "Team",
+      "className": "team-select",
+      "id": "team",
+      "blueTeamName": "RMU",
+      "orangeTeamName": "Union",
+      "checked": "orange-team-select",
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X",
+      "id": "x",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y",
+      "id": "y",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "radio",
+      "title": "Pass",
+      "id": "pass",
+      "options": [
+        {
+          "value": "Complete",
+          "checked": true
+        },
+        {
+          "value": "Miss"
+        },
+        {
+          "value": "Intercept"
+        }
+      ],
+      "editable": true,
+      "hidden": null
+    },
+    {
+      "type": "x",
+      "title": "X2",
+      "id": "x2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "y",
+      "title": "Y2",
+      "id": "y2",
+      "noWidget": true,
+      "hidden": null
+    },
+    {
+      "type": "time",
+      "title": "Timer",
+      "id": "timer",
+      "defaultTime": "0:00",
+      "countdown": true,
+      "editable": true,
+      "hidden": null
+    }
+  ],
+  "rowsPerPage": "10",
+  "widgetsPerRow": "2",
+  "heatMapEnable": false,
+  "twoPointEnable": true
+}
